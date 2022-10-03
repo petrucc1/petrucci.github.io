@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.10ea13b1.css",
+    "main.js": "/static/js/main.e39d6668.js",
+    "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/ada-lovelace-preview-desktop.png": "/static/media/ada-lovelace-preview-desktop.067e821420321cf6e852.png",
+    "static/media/nlw-esports-preview-desktop.png": "/static/media/nlw-esports-preview-desktop.324fb1366a6b69b97c32.png",
+    "static/media/me.png": "/static/media/me.821ecddcb9953b46bf75.png",
+    "static/media/me-about.jpg": "/static/media/me-about.fb4452e7f286d3636ef9.jpg",
+    "static/media/social-tree-preview-desktop.png": "/static/media/social-tree-preview-desktop.2c09b0b5b5f436ffa40a.png",
+    "static/media/portfolio6.jpg": "/static/media/portfolio6.72d1107e313049cf15a7.jpg",
+    "static/media/survey-form-preview-desktop.png": "/static/media/survey-form-preview-desktop.14331c245425df10d659.png",
+    "static/media/ogma-preview-mobile.png": "/static/media/ogma-preview-mobile.3d32b4123ec0017ef096.png",
+    "index.html": "/index.html",
+    "main.10ea13b1.css.map": "/static/css/main.10ea13b1.css.map",
+    "main.e39d6668.js.map": "/static/js/main.e39d6668.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10ea13b1.css",
+    "static/js/main.e39d6668.js"
+  ]
+}
