@@ -1,9 +1,11 @@
 import React from "react";
 import "./nav.css";
 import { AiOutlineHome } from "react-icons/ai";
-import { AiOutlineUser } from "react-icons/ai";
+import { FiUser } from "react-icons/fi";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+import { BiBriefcaseAlt2 } from "react-icons/bi";
+import { BiCodeAlt } from "react-icons/bi";
+import { HiUserGroup } from "react-icons/hi";
 import { BiMessageSquareDetail } from "react-icons/bi";
 import { useState } from "react";
 
@@ -30,7 +32,7 @@ const Nav = () => {
         }}
         className={activeNav === "#about" ? "active" : ""}
       >
-        <AiOutlineUser />
+        <FiUser />
       </a>
       <a
         title="Hard skills"
@@ -50,7 +52,27 @@ const Nav = () => {
         }}
         className={activeNav === "#services" ? "active" : ""}
       >
-        <RiServiceLine />
+        <BiBriefcaseAlt2 />
+      </a>
+      <a
+        title="Meus projetos"
+        href="#portfolio"
+        onClick={() => {
+          setActiveNav("#portfolio");
+        }}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <BiCodeAlt />
+      </a>
+      <a
+        title="Depoimentos"
+        href="#testimonials"
+        onClick={() => {
+          setActiveNav("#testimonials");
+        }}
+        className={activeNav === "#testimonials" ? "active" : ""}
+      >
+        <HiUserGroup />
       </a>
       <a
         title="Contato"

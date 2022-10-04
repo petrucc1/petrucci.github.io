@@ -5,8 +5,13 @@
 }
 
 .about__content p {
-  margin: 50rem 0 2.6rem;
+  margin-top: 5rem;
   color: var(--color-light);
+}
+
+
+.btn {
+  margin-top: 1rem;
 }
 
 /* === ========= MEDIA QUERIES (MEDIUM DEVICES) ==========  */
