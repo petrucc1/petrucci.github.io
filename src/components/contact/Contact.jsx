@@ -54,7 +54,7 @@ const Contact = () => {
             placeholder="Seu nome"
             required
           />
-          <input type="email" name="user-email" placeholder="Seu e-mail" required />
+          <input type="email" name="user_email" placeholder="Seu e-mail" required />
           <textarea
             name="message"
             rows="7"
