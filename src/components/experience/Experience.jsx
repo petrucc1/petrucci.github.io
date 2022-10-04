@@ -27,7 +27,21 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
+                <h4>NPM</h4>
+                <small className="text-light">Intermediário</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
                 <h4>JavaScript</h4>
+                <small className="text-light">Intermediário</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Figma</h4>
                 <small className="text-light">Intermediário</small>
               </div>
             </article>
@@ -62,8 +76,15 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Figma</h4>
-                <small className="text-light">Intermediário</small>
+                <h4>SASS/SCSS</h4>
+                <small className="text-light">Iniciante</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>HoppScotch</h4>
+                <small className="text-light">Iniciante</small>
               </div>
             </article>
           </div>
@@ -73,6 +94,20 @@ const Experience = () => {
         <div className="experience__backend">
           <h3>Desenvolvimento Back-end</h3>
           <div className="experience__content">
+          <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Git</h4>
+                <small className="text-light">Intermediário</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Github</h4>
+                <small className="text-light">Intermediário</small>
+              </div>
+            </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
@@ -104,15 +139,29 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Git</h4>
-                <small className="text-light">Intermediário</small>
+                <h4>JSON</h4>
+                <small className="text-light">Iniciante</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Github</h4>
-                <small className="text-light">Intermediário</small>
+                <h4>Vercel</h4>
+                <small className="text-light">Iniciante</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Heroku</h4>
+                <small className="text-light">Iniciante</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Google Pagespeed Insights</h4>
+                <small className="text-light">Iniciante</small>
               </div>
             </article>
           </div>

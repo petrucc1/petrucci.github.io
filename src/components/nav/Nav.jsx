@@ -13,6 +13,7 @@ const Nav = () => {
   return (
     <nav>
       <a
+        title="Início"
         href="#"
         onClick={() => {
           setActiveNav("#");
@@ -22,6 +23,7 @@ const Nav = () => {
         <AiOutlineHome />
       </a>
       <a
+        title="Sobre"
         href="#about"
         onClick={() => {
           setActiveNav("#about");
@@ -31,6 +33,7 @@ const Nav = () => {
         <AiOutlineUser />
       </a>
       <a
+        title="Hard skills"
         href="#experience"
         onClick={() => {
           setActiveNav("#experience");
@@ -40,6 +43,7 @@ const Nav = () => {
         <BiBook />
       </a>
       <a
+        title="Serviços"
         href="#services"
         onClick={() => {
           setActiveNav("#services");
@@ -49,6 +53,7 @@ const Nav = () => {
         <RiServiceLine />
       </a>
       <a
+        title="Contato"
         href="#contact"
         onClick={() => {
           setActiveNav("#contact");

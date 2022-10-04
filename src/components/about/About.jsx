@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.png";
+import ME from "../../assets/undraw_software_engineer_re_tnjc.svg";
 import { BsAward } from "react-icons/bs";
 import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -15,26 +15,7 @@ const About = () => {
             <img src={ME} alt="about image" />
           </div>
         </div>
-
-        <div className="about__content">
-          <div className="about__cards">
-            <article className="about__card">
-              <BsAward className="about__icon" />
-              <h5>5 meses</h5>
-              <small>Trabalhando</small>
-            </article>
-            <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>1</h5>
-              <small>Hackathon</small>
-            </article>
-            <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>13</h5>
-              <small>Projetos</small>
-            </article>
-          </div>
-
+        <div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
             necessitatibus fugiat explicabo quas provident libero dicta,

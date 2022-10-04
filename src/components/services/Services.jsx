@@ -13,67 +13,55 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Landing page responsiva;</p>
+              <p>Landing pages</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Multipage responsiva;</p>
+              <p>Multipages</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Site no WordPress;</p>
+              <p>Sites no WordPress</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Loja no WordPress;</p>
+              <p>Lojas no WordPress</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Responsividade</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Blogs</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Portfólios</p>
             </li>
           </ul>
         </article>
         {/* END OF WEB DEVELOPMENT */}
         <article className="service">
           <div className="service__head">
-            <h3>Desenvolvimento Full Stack</h3>
+            <h3>Desenvolvimento Back-end</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Deploy na Vercel;</p>
+              <p>Publicar sites</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Guardar e resgatar dados com SQL</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Intregações de APIs</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Configurar envio de e-mails</p>
             </li>
           </ul>
         </article>
