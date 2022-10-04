@@ -13,9 +13,9 @@ const Header = () => {
         <h5 className="text-llight">Desenvolvedora Front-end</h5>
         <CTA />
         <HeaderSocials />
-        <div className="me">
+        {/* <div className="me">
           <img src={ME} alt="me" />
-        </div>
+        </div> */}
         <a href="#contact" className="scroll__down">
           Scroll Down
         </a>
