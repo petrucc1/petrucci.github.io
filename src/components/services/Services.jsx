@@ -8,24 +8,24 @@ const Services = () => {
       <div className="container services__container">
         <article className="service">
           <div className="service__head">
-            <h3>Web Developer</h3>
+            <h3>Desenvolvimento Front-end</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Landing page responsiva;</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Multipage responsiva;</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Site no WordPress;</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Loja no WordPress;</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -44,12 +44,12 @@ const Services = () => {
         {/* END OF WEB DEVELOPMENT */}
         <article className="service">
           <div className="service__head">
-            <h3>Content Creation</h3>
+            <h3>Desenvolvimento Full Stack</h3>
           </div>
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>Deploy na Vercel;</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />

@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+import { FiLinkedin } from "react-icons/fi";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoCodepen } from "react-icons/io";
 
 const Footer = () => {
   return (
@@ -24,30 +24,30 @@ const Footer = () => {
           <a href="#services">Serviços</a>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <a href="#portfolio">Meus projetos</a>
         </li>
         <li>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#testimonials">Depoimentos</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contato</a>
         </li>
       </ul>
 
       <div className="footer__socials">
-        <a href="https://facebook.com">
-          <FaFacebookF />
+        <a title="LinkedIn" href="https://instagram.com">
+          <FiLinkedin />
         </a>
-        <a href="https://instagram.com">
-          <FiInstagram />
+        <a title="GitHub" href="https://github.com/petrucc1">
+          <FaGithub />
         </a>
-        <a href="https://twitter.com">
-          <IoLogoTwitter />
+        <a title="CodePen" href="https://twitter.com">
+          <IoLogoCodepen />
         </a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; petrucc1. All rights reserved.</small>
+        <small>&copy; Sarah Petrucci. Todos os direitos reservados.</small>
       </div>
     </footer>
   );

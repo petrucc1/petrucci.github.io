@@ -52,6 +52,20 @@ const Experience = () => {
                 <small className="text-light">Iniciante</small>
               </div>
             </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>WordPress</h4>
+                <small className="text-light">Iniciante</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Figma</h4>
+                <small className="text-light">Intermediário</small>
+              </div>
+            </article>
           </div>
         </div>
         {/* END OF FRONTEND */}

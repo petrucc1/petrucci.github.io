@@ -1,7 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import Avt1 from "../../assets/weslley-araujo.jpg";
-import Avt2 from "../../assets/rafael-celestino.png";
+import Avt1 from "../../assets/rafael-celestino.png";
+import Avt2 from "../../assets/weslley-araujo.jpg";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -15,15 +15,15 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: Avt1,
-    name: "Weslley Araújo",
+    name: "Rafael Celestino",
     review:
-      "Realizou todas as etapas como combinado. Foi realmente atenciosa. Parabéns pelo trabalho!",
+    "Sarah foi rápida e objetiva, entendeu o projeto e se dispôs a entregar uma amostra antes de fecharmos o job. Realizou todas substituições solicitadas, certamente voltaria a contrata-la.",
   },
   {
     avatar: Avt2,
-    name: "Rafael Celestino",
+    name: "Weslley Araújo",
     review:
-      "Sarah foi rápida e objetiva, entendeu o projeto e se dispôs a entregar uma amostra antes de fecharmos o job. Realizou todas substituições solicitadas, certamente voltaria a contrata-la.",
+      "Realizou todas as etapas como combinado. Foi realmente atenciosa. Parabéns pelo trabalho!",
   },
 ];
 
