@@ -15,7 +15,10 @@ const Contact = () => {
       "template_ul7ipxq",
       form.current,
       "t3xgSA0CK5ScpU3D8"
-    );
+    ).then(
+      result => console.log(result.text),
+      error => console.log(error.text)
+      );
     e.target.reset();
   };
 
@@ -47,18 +50,18 @@ const Contact = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input
             type="text"
-            name="name"
+            name="user_name"
             placeholder="Seu nome"
             required
           />
-          <input type="email" name="email" placeholder="Seu e-mail" required />
+          <input type="email" name="user-email" placeholder="Seu e-mail" required />
           <textarea
             name="message"
             rows="7"
             placeholder="Sua mensagem"
             required
           />
-          <button type="submit" className="btn btn-primary">
+          <button type="submit" value="Send" className="btn btn-primary">
             Enviar
           </button>
         </form>
