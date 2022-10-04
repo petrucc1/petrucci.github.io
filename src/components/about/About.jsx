@@ -1,9 +1,6 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/undraw_software_engineer_re_tnjc.svg";
-import { BsAward } from "react-icons/bs";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
   return (
@@ -17,10 +14,7 @@ const About = () => {
         </div>
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
-            necessitatibus fugiat explicabo quas provident libero dicta,
-            voluptates dolorum eveniet dignissimos blanditiis, mollitia ut ipsum
-            quo vel natus. Aperiam, blanditiis voluptatum!
+            Meu nome é Sarah Petrucci, tenho 21 anos e sou desenvolvedora Full Stack. Me importo muito com a acessibilidade e a usabilidade das aplicações, tenho grande interesse em projetos com soluções sustentáveis. Já trabalhei como freelancer front-end na Workana, o que me proporcionou diversas experiências práticas.
           </p>
           <a href="#contact" className="btn btn-primary">
             Vamos conversar
