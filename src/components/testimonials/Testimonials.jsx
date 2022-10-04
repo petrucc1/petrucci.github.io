@@ -1,9 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import Avt1 from "../../assets/avatar1.jpg";
-import Avt2 from "../../assets/avatar2.jpg";
-import Avt3 from "../../assets/avatar3.jpg";
-import Avt4 from "../../assets/avatar4.jpg";
+import Avt1 from "../../assets/weslley-araujo.jpg";
+import Avt2 from "../../assets/rafael-celestino.png";
 
 // import Swiper core and required modules
 import { Pagination } from "swiper";
@@ -17,35 +15,22 @@ import "swiper/css/pagination";
 const data = [
   {
     avatar: Avt1,
-    name: "Tina Snow",
+    name: "Weslley Araújo",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos enim architecto consectetur, ipsum animi officia. Fuga nemo vero pariatur aperiam.",
+      "Realizou todas as etapas como combinado. Foi realmente atenciosa. Parabéns pelo trabalho!",
   },
   {
     avatar: Avt2,
-    name: "Tina Snow",
+    name: "Rafael Celestino",
     review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos enim architecto consectetur, ipsum animi officia. Fuga nemo vero pariatur aperiam.",
-  },
-  {
-    avatar: Avt3,
-    name: "Tina Snow",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos enim architecto consectetur, ipsum animi officia. Fuga nemo vero pariatur aperiam.",
-  },
-  {
-    avatar: Avt4,
-    name: "Tina Snow",
-    review:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos enim architecto consectetur, ipsum animi officia. Fuga nemo vero pariatur aperiam.",
+      "Sarah foi rápida e objetiva, entendeu o projeto e se dispôs a entregar uma amostra antes de fecharmos o job. Realizou todas substituições solicitadas, certamente voltaria a contrata-la.",
   },
 ];
 
 const Testimonials = () => {
   return (
     <section id="testimonials">
-      <h5>Review from clients</h5>
-      <h2>Testimonials</h2>
+      <h2>Depoimentos</h2>
       <Swiper
         className="container testimonials__container"
         modules={[Pagination]}

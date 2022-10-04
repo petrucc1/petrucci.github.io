@@ -54,8 +54,8 @@ const Experience = () => {
             </article>
           </div>
         </div>
-
         {/* END OF FRONTEND */}
+
         <div className="experience__backend">
           <h3>Desenvolvimento Back-end</h3>
           <div className="experience__content">
@@ -78,6 +78,27 @@ const Experience = () => {
               <div>
                 <h4>C</h4>
                 <small className="text-light">Iniciante</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Shell</h4>
+                <small className="text-light">Iniciante</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Git</h4>
+                <small className="text-light">Intermediário</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon" />
+              <div>
+                <h4>Github</h4>
+                <small className="text-light">Intermediário</small>
               </div>
             </article>
           </div>

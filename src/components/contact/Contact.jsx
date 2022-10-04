@@ -21,7 +21,6 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Entre em contato</h5>
       <h2>Fale comigo</h2>
       <div className="container contact__container">
         <div className="contact__options">
@@ -31,14 +30,6 @@ const Contact = () => {
             <h5>petrucci_@outlook.com.br</h5>
             <a href="mailto:petrucci_@outlook.com.br" target="_blank">
               Envie uma mensagem
-            </a>
-          </article>
-          <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>facebook</h5>
-            <a href="https://m.me/100006127902014" target="_blank">
-              Send a message
             </a>
           </article>
           <article className="contact__option">
