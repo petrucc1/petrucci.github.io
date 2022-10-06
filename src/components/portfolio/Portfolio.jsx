@@ -5,20 +5,20 @@ import IMG2 from "../../assets/social-tree-preview-desktop.png";
 import IMG3 from "../../assets/ogma-preview-mobile.png";
 import IMG4 from "../../assets/ada-lovelace-preview-desktop.png";
 import IMG5 from "../../assets/survey-form-preview-desktop.png";
-import IMG6 from "../../assets/portfolio6.jpg";
+import IMG6 from "../../assets/product-card-desktop-preview.jpg";
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: "NLW eSports",
-    github: "https://github.com",
-    demo: "https://github.com",
+    github: "https://github.com/petrucc1/nlw-esports-web",
+    demo: "https://nlw-esports-web-eight.vercel.app",
   },
   {
     id: 1,
     image: IMG2,
-    title: "Social tree",
+    title: "Árvore social",
     github: "https://github.com/petrucc1/social-tree",
     demo: "https://social-tree-gamma.vercel.app/",
   },
@@ -46,9 +46,9 @@ const data = [
   {
     id: 1,
     image: IMG6,
-    title: "Crypto",
-    github: "https://github.com",
-    demo: "https://github.com",
+    title: "Cartão de visualização de um produto",
+    github: "https://github.com/petrucc1/product-preview-card-component",
+    demo: "https://product-preview-card-component-wheat-chi.vercel.app/",
   },
 ];
 
