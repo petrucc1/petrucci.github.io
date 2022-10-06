@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div>
           <p>
-            Meu nome é Sarah Petrucci, tenho 21 anos e sou desenvolvedora Full Stack. Me importo muito com a acessibilidade e a usabilidade das aplicações, tenho grande interesse em projetos com soluções sustentáveis. Já trabalhei como freelancer front-end na Workana, o que me proporcionou diversas experiências práticas.
+          Meu nome é Sarah Petrucci, 21 anos e amo ser desenvolvedora Full Stack. Me importam a acessibilidade e usabilidade das aplicações, tenho grande interesse em projetos com soluções sustentáveis. Trabalhei como freelancer front-end na Workana, entre outros, porém agora tenho como objetivo encontrar algo, onde eu possa não só desenvolver minhas habilidades, como interagir e colaborar num projeto de crescimento contínuo, para todas as partes envolvidas.
           </p>
           <a href="#contact" className="btn btn-primary">
             Vamos conversar
